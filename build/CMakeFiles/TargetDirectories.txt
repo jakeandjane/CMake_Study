@@ -1,0 +1,3 @@
+D:/tyy_install/desktop/infra study/基础学习/build/CMakeFiles/ALL_BUILD.dir
+D:/tyy_install/desktop/infra study/基础学习/build/CMakeFiles/ZERO_CHECK.dir
+D:/tyy_install/desktop/infra study/基础学习/build/lesson1_1/CMakeFiles/lesson1_1.dir
