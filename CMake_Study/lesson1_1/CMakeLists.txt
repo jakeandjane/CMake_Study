@@ -1,0 +1,2 @@
+include_directories(../lesson1_1)                              # 给"lesson1_1 目录"记一笔:INCLUDE_DIRECTORIES = .../CMake_Study/lesson1_1
+add_executable(lesson1_1 main.cpp ../lesson1_2/add.cpp)        # 创建可执行 target lesson1_1,源文件 = 2 个

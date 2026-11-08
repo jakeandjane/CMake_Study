@@ -39,5 +39,3 @@ add_subdirectory(lesson1_1)
 
 
 
-
-
