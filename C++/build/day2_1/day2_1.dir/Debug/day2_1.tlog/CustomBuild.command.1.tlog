@@ -1,0 +1,10 @@
+^D:\TYY_INSTALL\DESKTOP\INFRA_STUDY\基础学习\C++\DAY2_1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/tyy_install/desktop/infra_study/基础学习/C++ -BD:/tyy_install/desktop/infra_study/基础学习/C++/build --check-stamp-file D:/tyy_install/desktop/infra_study/基础学习/C++/build/day2_1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

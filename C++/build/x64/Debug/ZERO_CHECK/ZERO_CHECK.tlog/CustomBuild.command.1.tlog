@@ -1,0 +1,10 @@
+^D:\TYY_INSTALL\DESKTOP\INFRA_STUDY\基础学习\C++\BUILD\CMAKEFILES\3A8BEFA6FFDB4B29CD6E909C7F2FBC47\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/tyy_install/desktop/infra_study/基础学习/C++ -BD:/tyy_install/desktop/infra_study/基础学习/C++/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/tyy_install/desktop/infra_study/基础学习/C++/build/Project.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
